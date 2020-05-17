@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ieapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".FoodActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".TipActivity" />
+        <activity
+            android:name=".Analatics"
+            android:label="@string/title_activity_analatics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".subexe.BendActivity" />
+        <activity android:name=".subexe.StretchActivity" />
+        <activity android:name=".subexe.FlodActivity" />
+        <activity android:name=".subexe.PoseActivity" />
+        <activity android:name=".subexe.SeatedActivity" />
+        <activity android:name=".subexe.TriangleActivity" />
+        <activity android:name=".WeatherActivity" />
+        <activity android:name=".subexe.TaichiActivity" />
+        <activity android:name=".subexe.YogaActivity" />
+        <activity android:name=".subexe.LiftActivity" />
+        <activity android:name=".subexe.PlankActivity" />
+        <activity android:name=".subexe.PushActivity" />
+        <activity android:name=".subexe.CycActivity" />
+        <activity android:name=".subexe.GolfActivity" />
+        <activity android:name=".subexe.TennisActivity" />
+        <activity android:name=".subexe.JogActivity" />
+        <activity android:name=".subexe.SwimActivity" />
+        <activity android:name=".subexe.WalkActivity" />
+        <activity android:name=".Exe4Activity" />
+        <activity android:name=".Exe3Activity" />
+        <activity android:name=".Exe2Activity" />
+        <activity android:name=".Exe1Activity" />
+        <activity android:name=".SuggestionActivity" />
+        <activity android:name=".Excercise" />
+        <activity android:name=".Sleep" />
+        <activity android:name=".Info" />
+        <activity android:name=".About" />
+        <activity android:name=".Fitness" />
+        <activity android:name=".Symptoms" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

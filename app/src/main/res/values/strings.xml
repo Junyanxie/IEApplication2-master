@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RESONANCE</string>
+    <string name="symptoms">Symptoms</string>
+
+    <string name="stiffness">Stiffness</string>
+
+    <string name="how_do_you_rate_your_stiffness_today">How do you rate your stiffness today ?</string>
+    <string name="record_your_symptoms_to_see_how_it_impacts_your_daily_life">Record your symptoms to see how it impacts your daily life.</string>
+    <string name="pain">Pain</string>
+    <string name="how_do_you_rate_your_pain_today">How do you rate your pain today ?</string>
+    <string name="how_many_hours_did_you_sleep">How many hours did you sleep?</string>
+
+    <string name="fatigue_how_do_you_rate_your">Fatigue - How do you rate your</string>
+    <string name="how_do_you_rate_your_fatigue_level_today">How do you rate your fatigue level today ?</string>
+    <string name="being_physically_active_on_a_regular_basis_can_help_decrease_ra_pain_and_improve_function">Being physically active on a regular basis can help decrease RA pain and improve function.</string>
+    <string name="title_activity_analatics">Analatics</string>
+</resources>
